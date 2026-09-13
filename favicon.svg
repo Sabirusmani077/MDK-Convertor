@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="mGrad" x1="10" y1="12" x2="54" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="45%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#064e3b" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Orbital conversion loops with arrow heads -->
+  <path d="M14 36C8 24 20 10 38 10C48 10 54 16 56 22" stroke="url(#arrowGrad)" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M50 28C56 40 44 54 26 54C16 54 10 48 8 42" stroke="url(#arrowGrad)" stroke-width="4.5" stroke-linecap="round" />
+  
+  <!-- Arrow heads -->
+  <polyline points="51,16 57,22 63,16" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <polyline points="13,48 7,42 1,48" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Center Powerful Stylized 'M' -->
+  <path d="M16 48V16L32 33L48 16V48" stroke="url(#mGrad)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)" />
+  
+  <!-- Center Accent Pearl -->
+  <circle cx="32" cy="33" r="3" fill="#bbf7d0" />
+</svg>
