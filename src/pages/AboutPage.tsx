@@ -2,6 +2,7 @@ import React from 'react';
 import { SeoHead } from '../components/layout/SeoHead';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Zap, Heart, CheckCircle2, ArrowRight } from 'lucide-react';
+import { APP_LOGO } from '../constants/assets';
 
 export const AboutPage: React.FC = () => {
   return (
@@ -74,7 +75,7 @@ export const AboutPage: React.FC = () => {
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
                 <div className="relative">
                   <img
-                    src="/logo.png"
+                    src={APP_LOGO}
                     alt="Sabir Usmani"
                     className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-contain bg-white/10 p-2 border-2 border-emerald-400/60 shadow-lg"
                   />

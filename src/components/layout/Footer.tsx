@@ -15,6 +15,7 @@ import {
   MessageCircle
 } from 'lucide-react';
 import { CREATOR_LINKS } from '../../config/creatorLinks';
+import { APP_LOGO } from '../../constants/assets';
 
 export const Footer: React.FC = () => {
   const [copied, setCopied] = useState(false);
@@ -42,7 +43,7 @@ export const Footer: React.FC = () => {
           <div>
             <div className="flex items-center gap-3">
               <img
-                src="/logo.png"
+                src={APP_LOGO}
                 alt="Mr Sabir"
                 className="h-10 sm:h-12 w-auto object-contain filter drop-shadow-md"
               />
@@ -399,7 +400,7 @@ export const Footer: React.FC = () => {
           {/* Left: Logo & Copyright */}
           <div className="flex items-center gap-3">
             <img
-              src="/logo.png"
+              src={APP_LOGO}
               alt="Mr Sabir"
               className="h-6 w-auto object-contain opacity-80"
             />

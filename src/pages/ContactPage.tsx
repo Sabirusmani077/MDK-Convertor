@@ -16,6 +16,7 @@ import {
   Sparkles
 } from 'lucide-react';
 import { CREATOR_LINKS } from '../config/creatorLinks';
+import { APP_LOGO } from '../constants/assets';
 
 export const ContactPage: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -179,7 +180,7 @@ export const ContactPage: React.FC = () => {
           <div className="lg:col-span-5 bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-950 text-white rounded-3xl p-8 border border-slate-700/80 shadow-xl space-y-6">
             <div className="flex items-center gap-3">
               <img
-                src="/logo.png"
+                src={APP_LOGO}
                 alt="Sabir Usmani"
                 className="w-12 h-12 rounded-xl object-contain bg-white/10 p-1 border border-emerald-400/40"
               />

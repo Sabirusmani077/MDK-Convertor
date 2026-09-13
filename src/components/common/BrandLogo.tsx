@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { APP_LOGO } from '../../constants/assets';
 
 interface BrandLogoProps {
   size?: 'sm' | 'md' | 'lg' | 'xl';
@@ -31,7 +32,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
       <div className="relative flex items-center justify-center flex-shrink-0">
         {!imageError ? (
           <img
-            src="/logo.png"
+            src={APP_LOGO}
             alt="Mr Sabir - MDK Convertor"
             className={`${imgSizeMap[size]} w-auto object-contain transition-transform duration-200 group-hover:scale-105 filter drop-shadow-sm`}
             onError={() => setImageError(true)}

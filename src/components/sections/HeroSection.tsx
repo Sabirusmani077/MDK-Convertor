@@ -1,6 +1,7 @@
 import React from 'react';
 import { UniversalConverter } from '../converter/UniversalConverter';
 import { ShieldCheck, Zap, Lock, Sparkles, CheckCircle2, FileText, Image as ImageIcon } from 'lucide-react';
+import { APP_LOGO } from '../../constants/assets';
 
 export const HeroSection: React.FC = () => {
   return (
@@ -69,7 +70,7 @@ export const HeroSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         {/* Trust pill badge with user logo */}
         <div className="inline-flex items-center gap-2.5 bg-white/90 backdrop-blur-md border border-slate-200/80 px-4 py-1.5 rounded-full text-xs font-semibold text-slate-700 mb-6 shadow-xs animate-fade-in hover:scale-105 transition-transform">
-          <img src="/logo.png" alt="Mr Sabir" className="w-5 h-5 object-contain" />
+          <img src={APP_LOGO} alt="Mr Sabir" className="w-5 h-5 object-contain" />
           <span className="text-emerald-700 font-bold">Mr Sabir's MDK Convertor</span>
           <span className="text-slate-300">•</span>
           <span className="text-slate-500">100% Free &amp; Private In-Browser</span>
