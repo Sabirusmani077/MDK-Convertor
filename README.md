@@ -99,28 +99,51 @@ MDK Convertor/
 
 ---
 
-## 🛠️ Getting Started
+## 👨‍💻 Creator & Lead Developer
 
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or pnpm or yarn
+**Sabir Usmani (Mr Sabir)**  
+- **GitHub**: [@Sabirusmani077](https://github.com/Sabirusmani077)
+- **LinkedIn**: [Sabir Usmani](https://www.linkedin.com/in/sabir-usmani-753195397)
+- **WhatsApp**: [+91 9458204216](https://wa.me/919458204216)
+- **Email**: [sabirusmani159@gmail.com](mailto:sabirusmani159@gmail.com)
+- **Instagram**: [@sabir_usmani_077](https://www.instagram.com/sabir_usmani_077/)
+- **YouTube**: [@Sabirusmani07](https://www.youtube.com/@Sabirusmani07)
+- **𝕏 (Twitter)**: [@Mrsabirusmani07](https://x.com/Mrsabirusmani07)
+- **Facebook**: [Sabir Usmani](https://www.facebook.com/share/18oqDsbATK/)
 
-### Installation
+---
+
+## 🛠️ Tech Stack & Libraries
+
+- **Framework**: React 18, TypeScript
+- **Bundler**: Vite 5
+- **Styling**: Tailwind CSS, PostCSS, Autoprefixer
+- **Icons**: Lucide React
+- **PDF Engine**: jsPDF, PDF.js (`pdfjs-dist`)
+- **Archiving**: JSZip
+- **Animations**: Canvas Confetti, Tailwind CSS keyframes
+- **Alerts**: FormSubmit AJAX Integration (`careerconnect.aaassa@gmail.com`)
+
+---
+
+## 🚀 Getting Started
+
 ```bash
+# 1. Clone the repository
+git clone https://github.com/Sabirusmani077/MDK-Convertor.git
+
+# 2. Navigate to project directory
+cd MDK-Convertor
+
+# 3. Install dependencies
 npm install
-```
 
-### Run in Development Mode
-```bash
+# 4. Start local development server
 npm run dev
-```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-### Build for Production
-```bash
+# 5. Build for production
 npm run build
 ```
-Optimized assets will be generated in the `dist/` directory with code-splitting.
 
 ### Preview Production Build
 ```bash
